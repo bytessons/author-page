@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Annemo Grahm — Författare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,400&family=Rajdhani:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#hero">Hoppa till innehåll</a>
+
+<div id="cursor" aria-hidden="true"></div>
+<div id="cursor-ring" aria-hidden="true"></div>
+<div id="progress-bar" aria-hidden="true"></div>
+
+<nav id="navbar" aria-label="Huvudnavigation">
+  <a class="nav-logo" href="#hero">Annemo Grahm<span>.</span></a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Öppna meny">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#hero">Hem</a></li>
+    <li><a href="#bocker">Böcker</a></li>
+    <li><a href="#om">Om</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+  </ul>
+</nav>
+
+<section id="hero">
+  <div class="hero-bg-line"></div>
+  <div class="hero-bg-line" style="right:24%;opacity:.05"></div>
+  <div class="hero-word">Grahm</div>
+  <div class="hero-inner">
+    <p class="hero-eyebrow">Nutidsdrama &nbsp;·&nbsp; Sedan 2025 även deckare</p>
+    <h1 class="hero-name">Annemo <em>Grahm</em></h1>
+    <p class="hero-title">Om familjer, svek — och det som göms under ytan</p>
+    <p class="hero-desc">
+      Tre nutidsdramer om människor som bor för nära varandra för att kunna gömma sig.
+      Nu en ny röst i mörkret: deckartrilogin om Eda.
+    </p>
+    <div class="hero-cta">
+      <a href="#bocker" class="btn-primary"><span>Se böckerna</span></a>
+      <a href="#om" class="btn-ghost">Om författaren</a>
+    </div>
+  </div>
+  <div class="hero-portrait">
+    <img src="images/forfattare.jpg" alt="Porträtt av Annemo Grahm" class="portrait-color">
+    <img src="images/forfattare_black_white.jpg" alt="" class="portrait-bw" aria-hidden="true">
+  </div>
+  <div class="hero-scroll">Scrolla vidare</div>
+</section>
+
+<section id="bocker">
+  <p class="section-label reveal">Utgivna &amp; kommande</p>
+  <div class="section-header reveal reveal-delay-1">
+    <h2 class="section-title">Böcker</h2>
+    <p class="section-count">2 trilogier</p>
+  </div>
+
+  <div class="books-rows">
+  <div class="book-group">
+    <div class="group-heading reveal">
+      <h3 class="group-title">Solgränd</h3>
+      <span class="group-label">Nutidsdrama</span>
+    </div>
+
+    <div class="book-grid reveal reveal-delay-2">
+
+      <article class="book-card" data-genre="drama" tabindex="0" aria-expanded="false">
+        <div class="card-bg"><img src="images/solgrand_1.jpg" alt="Bokomslag: Solgränd — Ljus och mörker" loading="lazy"></div>
+        <div class="card-overlay"></div>
+        <div class="card-border"></div>
+        <div class="card-content">
+          <p class="card-tag">2019 · Nutidsdrama · Del 1 av 3</p>
+          <h3 class="card-title">Ljus och mörker</h3>
+          <p class="card-synopsis">
+            En sommarkväll på gatan där alla känner alla, och ingen vet allt. När en
+            familjefest urartar tvingas grannarna på Solgränd se sina liv i ett
+            skarpare ljus än de bett om — och de skuggor det ljuset kastar.
+          </p>
+        </div>
+        <div class="card-links">
+          <button type="button" class="card-link card-expand-btn">
+            <span class="card-link-icon">＋</span> Läs mer
+          </button>
+          <a href="#kontakt" class="card-link"><span class="card-link-icon">↗</span> Köp</a>
+        </div>
+      </article>
+
+      <article class="book-card" data-genre="drama" tabindex="0" aria-expanded="false">
+        <div class="card-bg"><img src="images/solgrand_2.jpg" alt="Bokomslag: Solgränd — Det fjärde rummet" loading="lazy"></div>
+        <div class="card-overlay"></div>
+        <div class="card-border"></div>
+        <div class="card-content">
+          <p class="card-tag">2021 · Nutidsdrama · Del 2 av 3</p>
+          <h3 class="card-title">Det fjärde rummet</h3>
+          <p class="card-synopsis">
+            Huset ska rivas — utom för grannen som vägrar flytta. En ung kvinna
+            flyttar in intill och upptäcker vad han egentligen försvarar, och varför
+            Solgränd aldrig riktigt släppt sin historia.
+          </p>
+        </div>
+        <div class="card-links">
+          <button type="button" class="card-link card-expand-btn">
+            <span class="card-link-icon">＋</span> Läs mer
+          </button>
+          <a href="#kontakt" class="card-link"><span class="card-link-icon">↗</span> Köp</a>
+        </div>
+      </article>
+
+      <article class="book-card" data-genre="drama" tabindex="0" aria-expanded="false">
+        <div class="card-bg"><img src="images/solgrand_3.jpg" alt="Bokomslag: Solgränd — De tysta skriken" loading="lazy"></div>
+        <div class="card-overlay"></div>
+        <div class="card-border"></div>
+        <div class="card-content">
+          <p class="card-tag">2023 · Nutidsdrama · Del 3 av 3</p>
+          <h3 class="card-title">De tysta skriken</h3>
+          <p class="card-synopsis">
+            Ett äktenskap sett genom husets rum, ett i taget. Avslutningen på
+            Solgränd-trilogin är en varm men obarmhärtig blick på allt som sägs
+            mellan väggarna — och allt som aldrig sägs alls.
+          </p>
+        </div>
+        <div class="card-links">
+          <button type="button" class="card-link card-expand-btn">
+            <span class="card-link-icon">＋</span> Läs mer
+          </button>
+          <a href="#kontakt" class="card-link"><span class="card-link-icon">↗</span> Köp</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <div class="book-group">
+    <div class="group-heading reveal">
+      <h3 class="group-title">Eda</h3>
+      <span class="group-label">Deckare</span>
+    </div>
+
+    <div class="book-grid reveal reveal-delay-2">
+
+      <article class="book-card" data-genre="deckare" tabindex="0" aria-expanded="false">
+        <div class="card-bg"><img src="images/eda_1.jpg" alt="Bokomslag: Eda — Under ytan" loading="lazy"></div>
+        <div class="card-overlay"></div>
+        <div class="card-border"></div>
+        <div class="card-content">
+          <p class="card-tag">2025 · Deckare · Del 1 av 3</p>
+          <h3 class="card-title">Under ytan</h3>
+          <p class="card-synopsis">
+            En lärare försvinner spårlöst från en småstad vid kusten. Kriminalare Eda
+            växte upp här och vet hur byn håller igen — men den här gången är det inte
+            bara grannarnas tystnad hon måste ta sig igenom.
+          </p>
+        </div>
+        <div class="card-links">
+          <button type="button" class="card-link card-expand-btn">
+            <span class="card-link-icon">＋</span> Läs mer
+          </button>
+          <a href="#kontakt" class="card-link"><span class="card-link-icon">↗</span> Köp</a>
+        </div>
+      </article>
+
+            <article class="book-card" data-genre="deckare" tabindex="0" aria-expanded="false">
+        <div class="card-bg"><img src="images/eda_1.jpg" alt="Bokomslag: Eda — Under ytan" loading="lazy"></div>
+        <div class="card-overlay"></div>
+        <div class="card-border"></div>
+        <div class="card-content">
+          <p class="card-tag">Kommer snart · Deckare · Del 2 av 3</p>
+          <h3 class="card-title">Del 2</h3>
+          <p class="card-synopsis">
+            En lärare försvinner spårlöst från en småstad vid kusten. Kriminalare Eda
+            växte upp här och vet hur byn håller igen — men den här gången är det inte
+            bara grannarnas tystnad hon måste ta sig igenom.
+          </p>
+        </div>
+        <!--<div class="card-links">
+          <button type="button" class="card-link card-expand-btn">
+            <span class="card-link-icon">＋</span> Läs mer
+          </button>
+          <a href="#kontakt" class="card-link"><span class="card-link-icon">↗</span> Köp</a>
+        </div>-->
+      </article>
+
+            <article class="book-card" data-genre="deckare" tabindex="0" aria-expanded="false">
+        <div class="card-bg"><img src="images/eda_1.jpg" alt="Bokomslag: Eda — Under ytan" loading="lazy"></div>
+        <div class="card-overlay"></div>
+        <div class="card-border"></div>
+        <div class="card-content">
+          <p class="card-tag">Kommer senare · Deckare · Del 3 av 3</p>
+          <h3 class="card-title">Del 3</h3>
+          <p class="card-synopsis">
+            En lärare försvinner spårlöst från en småstad vid kusten. Kriminalare Eda
+            växte upp här och vet hur byn håller igen — men den här gången är det inte
+            bara grannarnas tystnad hon måste ta sig igenom.
+          </p>
+        </div>
+       <!-- <div class="card-links">
+          <button type="button" class="card-link card-expand-btn">
+            <span class="card-link-icon">＋</span> Läs mer
+          </button>
+          <a href="#kontakt" class="card-link"><span class="card-link-icon">↗</span> Köp</a>
+        </div>-->
+      </article>
+
+      <!--<article class="book-card book-card-soon" aria-disabled="true">
+        <div class="card-bg card-bg-soon"></div>
+        <div class="card-border"></div>
+        <div class="card-content">
+          <p class="card-tag">Del 2 av 3</p>
+          <h3 class="card-title">Kommer snart</h3>
+        </div>
+      </article>
+
+      <article class="book-card book-card-soon" aria-disabled="true">
+        <div class="card-bg card-bg-soon"></div>
+        <div class="card-border"></div>
+        <div class="card-content">
+          <p class="card-tag">Del 3 av 3</p>
+          <h3 class="card-title">Kommer senare</h3>
+        </div>
+      </article>-->
+
+    </div>
+  </div>
+  </div>
+</section>
+
+<section id="om">
+  <div class="about-visual reveal">
+    <div class="about-photo-frame">
+      <img src="images/forfattare.jpg" alt="Porträtt av Annemo Grahm" class="about-photo-color">
+      <img src="images/forfattare_black_white.jpg" alt="" class="about-photo-bw" aria-hidden="true">
+    </div>
+    <div class="about-frame-border"></div>
+    <div class="about-stat-badge">
+      <strong>2025</strong>
+      <span>Nytt kapitel,<br>ny genre</span>
+    </div>
+  </div>
+
+  <div class="about-content">
+    <p class="section-label reveal">Om författaren</p>
+    <h2 class="section-title reveal reveal-delay-1">Varm blick, <em>obarmhärtigt</em> ärlig</h2>
+    <div class="gold-rule reveal reveal-delay-2"><div class="gold-rule-dot"></div></div>
+    <p class="about-text reveal reveal-delay-2">
+      Annemo Grahm debuterade med tre uppmärksammade nutidsdramer — Solgränd-trilogin —
+      som med varm men obarmhärtig blick skildrar familjer, svek och allt som ryms i
+      relationerna mellan människor som bor för nära varandra för att kunna gömma sig.
+    </p>
+    <p class="about-text reveal reveal-delay-3">
+      2025 tog hon steget in i deckargenren med Eda — Under ytan, första delen i en
+      planerad trilogi. Samma blick på människor följer med in i det nya mörkret: ingen
+      är bara offer eller bara skyldig, och tystnaden i en liten by kan vara lika
+      talande som orden.
+    </p>
+    <div class="about-skills reveal reveal-delay-3">
+      <div class="skill-item">Nutidsdrama</div>
+      <div class="skill-item">Deckare</div>
+      <div class="skill-item">Familjeskildringar</div>
+      <div class="skill-item">Karaktärsdrivet</div>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt">
+  <p class="section-label reveal">Kontakt</p>
+  <h2 class="contact-tagline reveal reveal-delay-1">
+    Från tystnad <br>till <em>ord</em>
+  </h2>
+  <p class="contact-sub reveal reveal-delay-2">
+    Frågor om böckerna, samarbeten eller bokade läsningar — <br>hör gärna av dig.
+  </p>
+  <div class="contact-links reveal reveal-delay-2">
+    <span class="contact-link contact-link-static">[Förlagets namn]</span>
+    <a href="#" class="contact-link">Instagram</a>
+    <a href="#" class="contact-link">Facebook</a>
+  </div>
+  <a href="mailto:kontakt@annemograhm.se" class="contact-email reveal reveal-delay-3">
+    kontakt@annemograhm.se
+  </a>
+  <p class="contact-footer">© <span id="year"></span> Annemo Grahm — Alla rättigheter förbehållna</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
