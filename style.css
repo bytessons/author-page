@@ -791,17 +791,17 @@ section {
     gap: 2rem;
     padding-bottom: 2rem;
   }
-  .spotlight-media { max-width: 240px; margin: 0 auto; }
+  .spotlight-media { max-width: 240px; }
   .spotlight-content { max-width: none; }
   .books-rows { gap: 2.5rem; }
   .book-group { flex: none; }
   .book-grid { grid-template-columns: repeat(2, 1fr); gap: 1.75rem 1rem; }
-  .feature-media { margin: 0 auto 1.6rem; }
   #om { grid-template-columns: 1fr; gap: 3rem; }
   .about-visual { max-width: 360px; left: 0; margin: 0 auto; }
   .about-photo-color { position: relative;}
   #cursor, #cursor-ring { display: none; }
   body { cursor: auto; }
+  #kontakt {text-align: left;}
 }
 
 @media (max-width: 720px) {
